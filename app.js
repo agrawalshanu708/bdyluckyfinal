@@ -3,7 +3,7 @@ const luckyNumber = document.querySelector("#lucky-number");
 const checkButton = document.querySelector("#check-button")
 const outputDiv =   document.querySelector("#output-div")
 
-checkButton.addEventListener('Click' , checkLucky) 
+checkButton.addEventListener('click' , checkLucky) 
 
 
 function compareValue(sum ,luckyNumber){
@@ -25,7 +25,7 @@ function checkLucky(){
 
 function calculate(dob){
 
-  dob = dob.replaceAll("_", "");
+  dob = dob.replaceAll("-", "");
   let sum = 0;
   for(let index = 0; index < dob.length; index++){
     sum = sum + Number(dob.charAt(index));
