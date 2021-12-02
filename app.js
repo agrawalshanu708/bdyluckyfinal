@@ -8,9 +8,9 @@ checkButton.addEventListener('Click' , checkLucky)
 
 function compareValue(sum ,luckyNumber){
   if(sum%luckyNumber === 0){
-    outputDiv.value = "your birthday is lucky"
+    outputDiv.innerText= "your birthday is lucky"
   }else{
-    outputDiv.value = "your birthday is not lucky"
+    outputDiv.innerText= "your birthday is not lucky"
   }
 }
 
