@@ -7,18 +7,15 @@
     color: var(--primary-green)
   }
   
-  .container{
-    
+  section{
     margin: auto;
     width: 50%;
-    
-   }
-  .heading {
+}
+  
+.heading {
   margin: 2rem;
   text-align: center;
-  
-  
-  }
+}
   
   input,label{
     display: block;
