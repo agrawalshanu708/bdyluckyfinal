@@ -16,10 +16,16 @@
   .heading {
   margin: 2rem;
   text-align: center;
-  
-  
+ 
+
   }
   
+  #notice {
+    margin: 2rem;
+    text-align: center;
+    margin: auto;
+  }
+
   input,label{
     display: block;
   }
